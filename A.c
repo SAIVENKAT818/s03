@@ -3,15 +3,7 @@
  
 #define MAX 50
  
-void enqueue(int n);
-void dequeue(int n);
-void display();
-int queue_array[MAX];
-int rear = - 1;
-int front = - 1;              
-int main()
-{
-    int i,n;
+void enqueue(int
     scanf("%d", &n);
     enqueue(n);
     scanf("%d", &n);
